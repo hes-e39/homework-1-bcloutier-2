@@ -1,7 +1,7 @@
-import fetch from 'node-fetch';
+import fetch from "node-fetch";
 // Recommend using node-fetch for those familiar with JS fetch
 
-const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
+const COLORS = "https://nt-cdn.s3.amazonaws.com/colors.json";
 
 /**
  * @param name filter for color name
@@ -11,7 +11,8 @@ const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
  * @returns Promise
  */
 const fetchColors = ({ name, hex, compName, compHex }) => {
-  throw Error('Not implemented');
+  throw Error("Not implemented");
+  console.log("make a change");
 };
 
 // Leave this here
