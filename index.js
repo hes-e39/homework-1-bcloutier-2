@@ -13,6 +13,8 @@ const COLORS = "https://nt-cdn.s3.amazonaws.com/colors.json";
 const fetchColors = ({ name, hex, compName, compHex }) => {
   throw Error("Not implemented");
   console.log("make a change");
+
+  console.log("make another change");
 };
 
 // Leave this here
